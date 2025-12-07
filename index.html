@@ -3,461 +3,222 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Valente Design Company</title>
-
-  <!-- Swiper CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-
-  <!-- Icon CDN -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
-  <!-- AOS CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet" />
-
-  <!--  CSS -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-  <!-- JavaScript -->
-  <script src="custom.js" defer></script>
+  <title>Valente Design Co </title>
+  <meta name="description" content="Valente Design Co is a creative marketing agency providing branding, web design, and digital strategy.">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<!-- main section -->
-<section class="main">
-  <!--header -->
-<div class="header" id="mainHeader">
-  <div class="container">
-    <div class="logo">
-  <img src="images/Valente Design Co Logo.png" alt="VDC Logo">
-</div>
-  <nav class="nav" id="nav">
-    <ul>
-      <li>Home</li>
-      <li>Company</li>
-      <li>Services</li>
-      <li>IT Solution</li>
-      <li>Blog</li>
-      <li>About</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
-  <div class="hamburger" id="hamburger">&#9776;</div>
-  </div>
-</div>
+<header class="site-header" id="mainHeader">
+  <div class="container header-container">
+    <a href="index.html" class="logo">
+      <img src="images/logo.png" alt="Valente Design Co logo">
+      <span class="logo-text">Valente Design Co</span>
+    </a>
 
-<div class="hero">
-  <div class="social-sidebar" >
-  <ul>
-    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-    <li><a href="https://instagram.com/valentedesignco"><i class="fab fa-instagram"></i></a></li>
-    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
-  </ul>
-  <div class="line"></div>
-  <span class="follow-text">Follow Us:</span>
-</div>
+    <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="table.html">Pricing Table</a></li>
+      </ul>
+    </nav>
 
-<!-- hero -->
-  <div class="container">
-    <div class="left" data-aos="fade-left">
-    <h5>WELCOME TO VALENTE DESIGN CO</h5>
-    <h1>MARKETING <span>AGENCY</span></h1>
-    <p>When our team provides design and digital marketing. <br/>Applied arts can include industrial design, graphic</p>
-    <div class="buttons">
-      <a class="whiteBtn">Get Started</a>
-      <a class="redBtn">Learn More</a>
-    </div>
-    
-  </div>
-
-  <div class="right" data-aos="fade-right">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide"><img src="images/1.jpg" ></div>
-        <div class="swiper-slide"><img src="images/2.jpg" ></div>
-        <div class="swiper-slide"><img src="images/3.jpg" ></div>
-      </div>
-      <div class="swiper-pagination"></div>
-    </div>
-  </div>
-  </div>
-</div>
-</section>
-<!-- service section -->
-<section class="services">
-  <div class="container">
-  <div class="row" data-aos="fade-left">
-    <div class="title-box">
-      <h3 class="subheading">SERVICES</h3>
-      <h2 class="heading">WE SERVE THE PERFECT <br> PIXEL <span style="color:var(--primary-color);">IT SOLUTION</span></h2>
-    </div>
-    <div class="service-card cardHover">
-      <i class="fa-solid fa-chart-line "></i>
-      <h4>SEO Consultancy</h4>
-      <p class="commonPara">Collaboratively matrix missio criticals methods empow with process-cent</p>
-    </div>
-    <div class="service-card whiteCard cardHover">
-      <i class="fa-solid fa-clock"></i>
-      <h4>UI/UX Designing</h4>
-      <p class="commonPara">Collaboratively matrix missio criticals methods empow with process-cent</p>
-    </div>
-  </div>
-
-  <div class="row" data-aos="fade-right"> 
-    <div class="service-card active">
-      <i class="fa-solid fa-pen-nib"></i>
-      <h4>App Development</h4>
-      <p class="commonPara">Collaboratively matrix missio criticals methods empow with process-cent</p>
-    </div>
-    <div class="service-card cardHover">
-      <i class="fa-regular fa-comments"></i>
-      <h4>Web Designing</h4>
-      <p class="commonPara">Collaboratively matrix missio criticals methods empow with process-cent</p>
-    </div>
-    <div class="service-card whiteCard cardHover">
-      <i class="fa-solid fa-hand-holding-dollar"></i>
-      <h4>Digital Marketing</h4>
-      <p class="commonPara">Collaboratively matrix missio criticals methods empow with process-cent</p>
-    </div>
-    <div class="service-card">
-      <div class="read-more">READ MORE </div>
-    </div>
-  </div>
-</div>
-</section>
-<!-- skill section -->
-<section>
-  <div class="skills-section">
-  <div class="skill-img" data-aos="fade-left">
-    <img src="images/skill.jpg">
-    <div class="counter-badge">
-      <h2 id="counter">0</h2>
-      <p>Successful Projects</p>
-    </div>
-  </div>
-  <div class="skill-content" data-aos="fade-right">
-    <h3 class="subheading">OUR SKILL</h3>
-    <h2 class="heading" style="color:white;">WE DO MORE THAN EVER<br/> BEST IT <span style="color:var(--primary-color);">PLATFORMS</span></h2>
-    <p class="commonPara">Dramatically enable economically sound information for mission-critical deliverables. Completely impact resource-leveling systems vis-a-vis focused leadership for real methodologies supported.</p>
-    <div class="progress-bar">
-      <span>Web UI/UX Design</span>
-      <div class="bar"><div class="bar-fill" data-width="90%"></div></div>
-    </div>
-    <div class="progress-bar">
-      <span>Business Consulting</span>
-      <div class="bar"><div class="bar-fill" data-width="75%"></div></div>
-    </div>
-  </div>
-</div>
-</section>
-<!-- about section -->
-<section class="about-section">
-  <div class="container">
-  <div class="about-img" data-aos="fade-left">
-    <img src="images/why.png">
-   
-  </div>
-  <div class="about-content" data-aos="fade-right">
-    <h3 class="subheading">ABOUT US</h3>
-    <h2 class="heading">Valente Design Co IS THE BEST IT AGENCY <span style="color:var(--primary-color);">IN WORLD</span></h2>
-    <br/>
-    <p class="commonPara">EDramatically enable economically sound information for mission-critical deliverables. Completely impact resource-leveling systems vis-a-vis clie focused leadership for real methodologies supported.</p>
-    <br/>
-    <ul class="feature-list">
-      <li><i class="fa-solid fa-square-check"></i> Suspe ndsisse suscipit sagittis special</li>
-      <li><i class="fa-solid fa-square-check"></i> Distinctively maintain orthogonal field</li>
-      <li><i class="fa-solid fa-square-check"></i> Proactively extend functionalized donate</li>
-    </ul>
-    <div class="signature">
-      <img src="images/user.png">
-      <div class="signature-info">
-
-        <strong>Robert Smith</strong><br>
-        CEO & Founder Techno
-      </div>
-    </div>
-  </div>
-</div>
-</section>
-<!-- choose section -->
-<section class="choose-section">
-  <div class="choose-content" data-aos="fade-right">
-    <h3 class="subheading">SECTION SUBTITLE</h3>
-    <h2 class="heading">SOME REASON CHOOSE <br/>OUR <span style="color:var(--primary-color);">SERVICE?</span></h2>
-    <div class="accordion">
-      <div class="accordion-item">
-        <div class="title">1. Intrinsically implement cross functional <span> + </span></div>
-        <div class="content">
-          Intrinsically build just in time customer service without the partnerships. Interactively synthesize cros leverage other is a class best practices through.
-        </div>
-      </div>
-      <div class="accordion-item">
-        <div class="title">2. Intrinsically implement cross functional <span> + </span></div>
-        <div class="content">
-          Interactively synthesize cros leverage other is a class best practices through.
-        </div>
-      </div>
-      <div class="accordion-item">
-        <div class="title">3. Globally 24/335 infrastructures <span> + </span></div>
-        <div class="content">
-          Leverage other is a class best practices through.
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="choose-img" data-aos="fade-left">
-    <img src="images/services.jpg">
-    <div class="counter-badge blueBadge">
-      <h2 id="awardCounter">0</h2>
-      <p>AWARD WINNING</p>
-    </div>
-  </div>
-</section>
-<!-- project section -->
-<section class="case-studies">
-  <h3 class="subheading" data-aos="zoom-in">OUR PROJECTS</h3>
-  <h2 class="heading galleryHeading" data-aos="zoom-in">OUR LATEST <span style="color: var(--primary-color);">CASE STUDIES</span></h2>
-  <div class="filter-buttons" data-aos="zoom-in">
-  <button class="filter-btn active" data-filter="all">All</button>
-  <button class="filter-btn" data-filter="branding">Branding</button>
-  <button class="filter-btn" data-filter="photography">Photography</button>
-  <button class="filter-btn" data-filter="graphics">Graphics</button>
-  <button class="filter-btn" data-filter="video">Video</button>
-</div>
-
-<div class="filter-gallery" data-aos="fade-right">
-  <div class="filter-item branding">
-    <img src="images/project-1.jpg" alt="Branding 1">
-    <div class="overlay"><div class="overlay-text">Branding Item 1</div></div>
-  </div>
-
-  <div class="filter-item photography">
-    <img src="images/project-2.jpg" alt="Photography 1">
-    <div class="overlay"><div class="overlay-text">Photography Item 1</div></div>
-  </div>
-
-  <div class="filter-item graphics">
-    <img src="images/project-3.jpg" alt="Graphics 1">
-    <div class="overlay"><div class="overlay-text">Graphics Item 1</div></div>
-  </div>
-
-  <div class="filter-item video">
-    <img src="images/project-4.jpg" alt="Video 1">
-    <div class="overlay"><div class="overlay-text">Video Item 1</div></div>
-  </div>
-
-  <div class="filter-item branding">
-    <img src="images/project-5.jpg" alt="Branding 2">
-    <div class="overlay"><div class="overlay-text">Branding Item 2</div></div>
-  </div>
-
-  <div class="filter-item photography">
-    <img src="images/project-6.jpg" alt="Photography 2">
-    <div class="overlay"><div class="overlay-text">Photography Item 2</div></div>
-  </div>
-</div>
-</section>
-<!-- counter section -->
-<section class="counter-section" >
-  <div class="counter-box" data-aos="fade-up">
-    <i class="fa-solid fa-laptop-code"></i>
-    <div class="counter-number" data-target="2205">0</div>
-    <div class="counter-title">Completed Projects</div>
-  </div>
-  <div class="counter-box" data-aos="fade-up">
-    <i class="fa-solid fa-users"></i>
-    <div class="counter-number" data-target="395">0</div>
-    <div class="counter-title">Active Members</div>
-  </div>
-  <div class="counter-box" data-aos="fade-up">
-    <i class="fa-solid fa-award"></i>
-    <div class="counter-number" data-target="323">0</div>
-    <div class="counter-title">Award Winning</div>
-  </div>
-  <div class="counter-box" data-aos="fade-up">
-    <i class="fa-solid fa-trophy"></i>
-    <div class="counter-number" data-target="100">0</div>
-    <div class="counter-title">Satisfaction Rate</div>
-  </div>
-
-</section>
-<!-- testimonial section -->
-<section class="testimonial-section">
- 
-  <div class="testimonial-img" data-aos="fade-right">
-    <img src="images/testimonial.jpg">
-  </div>
-  <div class="testimonial-content" data-aos="fade-left">
-    <div class="swiper mySwiper1">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
-          <p>Seamlessly leverage existing adaptive potential adaptive e-services. Interactively pursue B2C products and high-quality services without edge process improvements.Seamlessly leverage existing adaptive potential adaptive e-services. Interactively pursue B2C products and high-quality services without edge process improvements.</p>
-          <div class="testimonial-author">
-            <img src="images/user.png">
-            <div>
-              <h4>David Warner</h4>
-              <span>Web Developer</span>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
-           <p>Seamlessly leverage existing adaptive potential adaptive e-services. Interactively pursue B2C products and high-quality services without edge process improvements.Seamlessly leverage existing adaptive potential adaptive e-services. Interactively pursue B2C products and high-quality services without edge process improvements.</p>
-          <div class="testimonial-author">
-            <img src="images/user.png">
-            <div>
-              <h4>Emily Clark</h4>
-              <span>UI/UX Designer</span>
-            </div>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="quote"><i class="fa-solid fa-quote-right"></i></div>
-           <p>Seamlessly leverage existing adaptive potential adaptive e-services. Interactively pursue B2C products and high-quality services without edge process improvements.Seamlessly leverage existing adaptive potential adaptive e-services. Interactively pursue B2C products and high-quality services without edge process improvements.</p>
-          <div class="testimonial-author">
-            <img src="images/user.png">
-            <div>
-              <h4>John Doe</h4>
-              <span>Product Manager</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Pagination Dots -->
-      <div class="swiper-pagination customPagination"></div>
-    </div>
-  </div>
-
-</section>
-
-<!-- blog section -->
-<section class="blog-section">
-  <br/>
-  <h3 class="subheading" data-aos="zoom-in">BLOG POST</h3>
-  <h2 class="heading galleryHeading" data-aos="zoom-in">READ OUR <span style="color: var(--primary-color);">LATEST INSIGHTS</span></h2>
-
-    <div class="blog-container" data-aos="fade-right">
-      <!-- Blog Card 1 -->
-      <div class="blog-card">
-        <img src="images/1.jpg">
-        <div class="blog-content">
-          <div class="blog-meta">
-            <span><i class="fa-solid fa-calendar-days"></i> March 10, 2025</span>
-            <span><i class="fa-solid fa-user"></i> By John</span>
-          </div>
-          <h3 class="blog-title">Top 15 Secret Business Ideas Next Levels</h3>
-          <button class="blog-button">Read More</button>
-        </div>
-      </div>
-
-      <!-- Blog Card 2 -->
-      <div class="blog-card">
-        <img src="images/2.jpg">
-        <div class="blog-content">
-          <div class="blog-meta">
-            <span><i class="fa-solid fa-calendar-days"></i> March 10, 2025</span>
-            <span><i class="fa-solid fa-user"></i> By Posted</span>
-          </div>
-          <h3 class="blog-title">Premium Supply Chains is Network Turnkey</h3>
-          <button class="blog-button">Read More</button>
-        </div>
-      </div>
-
-      <!-- Blog Card 3 -->
-      <div class="blog-card">
-        <img src="images/3.jpg">
-        <div class="blog-content">
-          <div class="blog-meta">
-            <span><i class="fa-solid fa-calendar-days"></i> March 10, 2025</span>
-            <span><i class="fa-solid fa-user"></i> By Jhon</span>
-          </div>
-          <h3 class="blog-title">Diverse Intellectual Capital Before Distinctive</h3>
-          <button class="blog-button">Read More</button>
-        </div>
-      </div>
-    </div>
-   
-</section>
-<!-- footer -->
- <button id="backToTop">
-      <i class="fa-solid fa-arrow-up"></i>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu">
+      <span></span><span></span><span></span>
     </button>
-  <footer>
-    <div class="newsletter-wrapper" data-aos="fade-down">
-      <div class="newsletter">
-        <div class="newsletter-content">
-          <h2>Subscribe our newsletter</h2>
-          <p>Please Subscribe our news letter and get update.</p>
+  </div>
+</header>
+
+<main>
+  <!-- Hero section -->
+  <section class="hero" aria-labelledby="hero-heading">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1 id="hero-heading">Design–driven marketing for modern brands.</h1>
+        <p>
+          Valente Design Co blends strategy, design, and technology to help small businesses
+          stand out online and connect with the right audience.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#contact">Get Started</a>
+          <a class="btn btn-outline" href="services.html">View Services</a>
         </div>
-        <div class="newsletter-form">
-          <input type="email" placeholder="Enter E-Mail Address">
-          <button>SUBSCRIBE</button>
+
+        <div class="hero-stats" aria-label="Key statistics">
+          <div class="stat">
+            <span class="stat-number counter" data-target="120">0</span>
+            <span class="stat-label">Brands launched</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number counter" data-target="98">0</span>
+            <span class="stat-label">% client satisfaction</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number counter" data-target="7">0</span>
+            <span class="stat-label">Years of experience</span>
+          </div>
         </div>
+      </div>
+
+      <div class="hero-media">
+        <figure>
+          <img src="images/hero-1.jpg" alt="Team collaborating on a marketing strategy">
+          <figcaption>We design experiences that convert visitors into loyal customers.</figcaption>
+        </figure>
       </div>
     </div>
+  </section>
 
-    <div class="footer-container">
-      <div class="footer-section">
-        <h3><i class="fa-solid fa-microchip"></i> Tekzo</h3>
-        <p>Holisticly reintermediate intuitive factured products after ethical to rabies. Monotonectally.</p>
-        <div class="social-icons">
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-instagram"></i></a>
-          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
-          <a href="#"><i class="fa-brands fa-pinterest-p"></i></a>
-        </div>
+  <!-- Services summary -->
+  <section class="section" aria-labelledby="home-services-heading">
+    <div class="container">
+      <header class="section-header">
+        <h2 id="home-services-heading">What we do best</h2>
+        <p>We offer a focused set of services that cover the essentials of digital marketing.</p>
+      </header>
+
+      <div class="card-grid">
+        <article class="card">
+          <h3>Brand Identity</h3>
+          <p>Logos, colors, and visual systems that communicate who you are and what you stand for.</p>
+        </article>
+
+        <article class="card">
+          <h3>Web &amp; UX Design</h3>
+          <p>Responsive websites that look great on every screen and lead visitors toward clear actions.</p>
+        </article>
+
+        <article class="card">
+          <h3>Content &amp; Campaigns</h3>
+          <p>Social media, email, and landing pages that speak directly to your ideal customers.</p>
+        </article>
       </div>
+    </div>
+  </section>
 
-      <div class="footer-section">
-        <h3><span>R</span>ESOURCE</h3>
-        <ul>
-          <li>Open Source</li>
-          <li>Documentation</li>
-          <li>User Studio</li>
-          <li>Manage Report</li>
-          <li>Live Seassion</li>
+  <!-- Featured image strip -->
+  <section class="section section-alt" aria-label="Recent work preview">
+    <div class="container featured-grid">
+      <div>
+        <h2>Design that feels on-brand from day one.</h2>
+        <p>
+          From first pitch deck to full product launch, we partner with clients to create cohesive
+          visuals and messaging. Our process is collaborative, transparent, and centered on your goals.
+        </p>
+        <ul class="checklist">
+          <li>Clear project timelines and expectations</li>
+          <li>Accessible, mobile–first design approach</li>
+          <li>Simple maintenance plans after launch</li>
+        </ul>
+      </div>
+      <figure>
+        <img src="images/hero-2.jpg" alt="Mockups of a website on multiple devices">
+        <figcaption>Mobile–friendly layouts that adapt to your customers' devices.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- Contact / form -->
+  <section class="section" id="contact" aria-labelledby="contact-heading">
+    <div class="container contact-grid">
+      <div>
+        <header class="section-header">
+          <h2 id="contact-heading">Let’s plan your next project</h2>
+          <p>Share a few details and we’ll follow up within one business day.</p>
+        </header>
+
+        <ul class="contact-list">
+          <li><strong>Phone:</strong> (484) 757-2098</li>
+          <li><strong>Email:</strong> valentedesignco@gmail.com</li>
+          <li><strong>Location:</strong> Delaware County, Pennsylvania</li>
         </ul>
       </div>
 
-      <div class="footer-section">
-        <h3><span>U</span>SEFUL LINKS</h3>
-        <ul>
-          <li>Open Source</li>
-          <li>Documentation</li>
-          <li>User Studio</li>
-          <li>Manage Report</li>
-          <li>Live Seassion</li>
-        </ul>
-      </div>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-group">
+          <label for="name">Full name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
 
-      <div class="footer-section">
-        <h3><span>C</span>ONTACTS</h3>
-        <ul>
-          <li>(484) 757-2098</li>
-          <li>valentedesignco@gmail.com</li>
-          <li>Delaware County Pennsylvania</li>
-        </ul>
-      </div>
+        <div class="form-group">
+          <label for="email">Email address</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="project-type">Project type</label>
+          <select id="project-type" name="project-type" required>
+            <option value="">Please select</option>
+            <option value="branding">Branding &amp; identity</option>
+            <option value="website">Website design</option>
+            <option value="campaign">Marketing campaign</option>
+            <option value="other">Something else</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Project details</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit Request</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<button id="backToTop" class="back-to-top" aria-label="Back to top">
+  ↑
+</button>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-column">
+      <h2 class="footer-logo">
+        <span class="footer-logo-mark">V</span>alente Design Co
+      </h2>
+      <p>
+        A small, flexible studio focused on thoughtful, accessible design and clear communication.
+      </p>
     </div>
 
-    <div class="footer-bottom">
-      <p>Copyright © 2025. All rights reserved to <span style="color: var(--primary-color);">Valente Design Company</span></p>
-      <p>Terms & Condition . Services . Careers</p>
+    <div class="footer-column">
+      <h3>Pages</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="table.html">Pricing Table</a></li>
+      </ul>
     </div>
-  </footer>
-<!-- swiper -->
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<!-- aos animation js --->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
- <!-- custom js -->
+
+    <div class="footer-column">
+      <h3>External Resources</h3>
+      <ul>
+        <li>
+          <a href="https://instagram.com/valentedesignco" target="_blank" rel="noopener">
+            Instagram – @valentedesignco
+          </a>
+        </li>
+        <li>
+          <a href="https://developer.mozilla.org/" target="_blank" rel="noopener">
+            MDN Web Docs (HTML &amp; CSS reference)
+          </a>
+        </li>
+        <li>
+          <a href="https://validator.w3.org/" target="_blank" rel="noopener">
+            W3C Markup Validator
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year"></span> Valente Design Co. All rights reserved.</p>
+  </div>
+</footer>
+
 <script src="js/custom.js"></script>
-
 </body>
 </html>
-
-
-</body>
-</html>
-
 
